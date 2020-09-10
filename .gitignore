@@ -27,7 +27,7 @@ xcuserdata
 *.ipa
 
 ## Dependency Managers
-Pods/
+# Pods/
 Carthage/Build
 
 ## AppCode
