@@ -44,27 +44,12 @@
 		81EC41111CA3640600BD9226 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEA610618A49C620064AFF4 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81EC41151CA3640B00BD9226 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B05A2D1A076AD70022AB70 /* NSObject+FBKVOController.m */; };
 		81EC41161CA3640B00BD9226 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEA610818A49C620064AFF4 /* FBKVOController.m */; };
-		EC8BB5AE18A5792D00EB2793 /* FBKVOTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8BB5AD18A5792D00EB2793 /* FBKVOTesting.m */; };
 		ECEA610218A49C620064AFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA610118A49C620064AFF4 /* Foundation.framework */; };
 		ECEA610718A49C620064AFF4 /* FBKVOController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECEA610618A49C620064AFF4 /* FBKVOController.h */; };
 		ECEA610918A49C620064AFF4 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEA610818A49C620064AFF4 /* FBKVOController.m */; };
-		ECEA611018A49C620064AFF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA610F18A49C620064AFF4 /* XCTest.framework */; };
-		ECEA611118A49C620064AFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA610118A49C620064AFF4 /* Foundation.framework */; };
-		ECEA611318A49C620064AFF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA611218A49C620064AFF4 /* UIKit.framework */; };
-		ECEA611618A49C620064AFF4 /* libFBKVOController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEA60FE18A49C620064AFF4 /* libFBKVOController.a */; };
-		ECEA611C18A49C620064AFF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECEA611A18A49C620064AFF4 /* InfoPlist.strings */; };
-		ECEA611E18A49C620064AFF4 /* FBKVOControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEA611D18A49C620064AFF4 /* FBKVOControllerTests.m */; };
-		F2755F5F5CED1DAAAFED68B2 /* libPods-FBKVOControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A6FECA9893D2B98CA99B7 /* libPods-FBKVOControllerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ECEA611418A49C620064AFF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ECEA60F618A49C620064AFF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ECEA60FD18A49C620064AFF4;
-			remoteInfo = FBKVOController;
-		};
 		ECEA613018A4A73D0064AFF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ECEA60F618A49C620064AFF4 /* Project object */;
@@ -111,7 +96,6 @@
 		ECEA610118A49C620064AFF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECEA610618A49C620064AFF4 /* FBKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
 		ECEA610818A49C620064AFF4 /* FBKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; tabWidth = 4; };
-		ECEA610E18A49C620064AFF4 /* FBKVOControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBKVOControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEA610F18A49C620064AFF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ECEA611218A49C620064AFF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ECEA611918A49C620064AFF4 /* FBKVOControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBKVOControllerTests-Info.plist"; sourceTree = "<group>"; };
@@ -156,18 +140,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECEA610B18A49C620064AFF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECEA611018A49C620064AFF4 /* XCTest.framework in Frameworks */,
-				ECEA611318A49C620064AFF4 /* UIKit.framework in Frameworks */,
-				ECEA611618A49C620064AFF4 /* libFBKVOController.a in Frameworks */,
-				ECEA611118A49C620064AFF4 /* Foundation.framework in Frameworks */,
-				F2755F5F5CED1DAAAFED68B2 /* libPods-FBKVOControllerTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -202,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				ECEA60FE18A49C620064AFF4 /* libFBKVOController.a */,
-				ECEA610E18A49C620064AFF4 /* FBKVOControllerTests.xctest */,
 				81EC40C61CA3620A00BD9226 /* KVOController.framework */,
 				81EC40F81CA3639C00BD9226 /* KVOController.framework */,
 				81BD70C81CA4B57F00FB8E4D /* KVOController.framework */,
@@ -399,25 +370,6 @@
 			productReference = ECEA60FE18A49C620064AFF4 /* libFBKVOController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ECEA610D18A49C620064AFF4 /* FBKVOControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ECEA612418A49C620064AFF4 /* Build configuration list for PBXNativeTarget "FBKVOControllerTests" */;
-			buildPhases = (
-				BEB3825BB272703E7F8D5FAD /* [CP] Check Pods Manifest.lock */,
-				ECEA610A18A49C620064AFF4 /* Sources */,
-				ECEA610B18A49C620064AFF4 /* Frameworks */,
-				ECEA610C18A49C620064AFF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ECEA611518A49C620064AFF4 /* PBXTargetDependency */,
-			);
-			name = FBKVOControllerTests;
-			productName = FBKVOControllerTests;
-			productReference = ECEA610E18A49C620064AFF4 /* FBKVOControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -452,7 +404,6 @@
 			projectRoot = "";
 			targets = (
 				ECEA60FD18A49C620064AFF4 /* FBKVOController */,
-				ECEA610D18A49C620064AFF4 /* FBKVOControllerTests */,
 				ECEA612C18A4A7360064AFF4 /* Framework */,
 				81EC40C51CA3620A00BD9226 /* FBKVOController-iOS-Dynamic */,
 				81EC40F71CA3639C00BD9226 /* FBKVOController-OSX-Dynamic */,
@@ -491,35 +442,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECEA610C18A49C620064AFF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECEA611C18A49C620064AFF4 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BEB3825BB272703E7F8D5FAD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FBKVOControllerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ECEA612718A49DDD0064AFF4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -594,23 +519,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECEA610A18A49C620064AFF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ECEA611E18A49C620064AFF4 /* FBKVOControllerTests.m in Sources */,
-				EC8BB5AE18A5792D00EB2793 /* FBKVOTesting.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ECEA611518A49C620064AFF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ECEA60FD18A49C620064AFF4 /* FBKVOController */;
-			targetProxy = ECEA611418A49C620064AFF4 /* PBXContainerItemProxy */;
-		};
 		ECEA613118A4A73D0064AFF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ECEA60FD18A49C620064AFF4 /* FBKVOController */;
@@ -1009,32 +920,6 @@
 			};
 			name = Release;
 		};
-		ECEA612518A49C620064AFF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2316F70E2DD4D80B87440A05 /* Pods-FBKVOControllerTests.debug.xcconfig */;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "FBKVOControllerTests/FBKVOControllerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		ECEA612618A49C620064AFF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E0BB792112F905E950F2AE4 /* Pods-FBKVOControllerTests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = "FBKVOControllerTests/FBKVOControllerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		ECEA612E18A4A7360064AFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1102,15 +987,6 @@
 			buildConfigurations = (
 				ECEA612218A49C620064AFF4 /* Debug */,
 				ECEA612318A49C620064AFF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECEA612418A49C620064AFF4 /* Build configuration list for PBXNativeTarget "FBKVOControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECEA612518A49C620064AFF4 /* Debug */,
-				ECEA612618A49C620064AFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
