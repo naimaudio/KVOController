@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "FBKVOController.h"
+#import <KVOController/FBKVOController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
